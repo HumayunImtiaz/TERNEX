@@ -9,7 +9,7 @@ function Courses() {
   return (
     <>
     <Navbar/>
-    <div className='min-h-screen'>
+    <div className='md:pb-10 pb-52'>
     <Course/>
     </div>
     <Footer/>

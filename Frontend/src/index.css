@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-  font-family: "Poppins", serif;
+  font-family: "Montserrat", sans-serif;
 }

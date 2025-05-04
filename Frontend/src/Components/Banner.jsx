@@ -15,8 +15,8 @@ function Banner() {
         
         </h1>
         <p className="text-lg">
-        DigitalVibe delivers top-notch video editing, social media management, and web development services. 
-        We create impactful digital content and seamless online experiences. Transform your brand’s digital presence with us.
+          DigitalVibe delivers top-notch video editing, social media management, and web development services. 
+          We create impactful digital content and seamless online experiences. Transform your brand’s digital presence with us.
         </p>
         <label className="input input-bordered flex items-center gap-2 md:w-[70%] w-[65%] ">
         <svg
@@ -30,7 +30,7 @@ function Banner() {
             d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
         </svg>
         <input type="text" className="grow" placeholder="Email" />
-        <button className="btn  text-white  md:ml-44 ml-11 
+        <button className="btn  text-white  md:ml-44 ml-8 w-24
         bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600 ">
             Secondary
         

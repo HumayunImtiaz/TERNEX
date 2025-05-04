@@ -42,22 +42,26 @@ function Contact() {
     return (
         <>
             <Navbar />
-            <div className='flex h-screen items-center justify-center mt-10 '>
-                <div className="w-[600px] ">
+            <div className='flex md:h-[30%] h-[42%]  items-center justify-center  mt-12  px-1'>
+           
+                <div className="w-[800px] ">
+                
+    
                     <div className=''>
+                    
                         <form
-                            className=' bg-gray-100  flex flex-col p-5 justify-center items-center dark:bg-slate-700 dark:text-white
+                            className=' bg-gray-100 md:mr-0  md:ml-28 flex flex-col md:p-72 py-14 md:h-[200px]   w-96 justify-center items-center dark:bg-slate-700 dark:text-white
                                        rounded-xl hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600'
                             onSubmit={handleSubmit(onSubmit)}
                         >
-                            <h3 className="font-bold text-lg">Contact</h3>
+                            <h4 className="font-bold text-lg md:text-4xl">Contact</h4>
                             <div className='mt-4 space-y-2'>
                                 <span>Name</span>
                                 <br />
                                 <input
                                     type="name"
                                     placeholder='Enter the Name'
-                                    className='px-44 py-5 pl-2 border rounded-md outline-none dark:text-black'
+                                    className='px-20 py-5 md:py-5 pl-2 md:p-2 md:w-[30rem] border rounded-md outline-none dark:text-black'
                                     {...register("name", { required: true })}
                                 />
                                 {errors.name?.type === "required" && <p className='text-red-700' role='alert'>Please enter your name</p>}
@@ -69,7 +73,7 @@ function Contact() {
                                 <input
                                     type="email"
                                     placeholder='Enter the Email'
-                                    className='px-44  py-5 pl-2 border rounded-md outline-none dark:text-black'
+                                    className='px-20  md:py-5 md:w-[30rem] md:p-2  py-5 pl-2 border rounded-md outline-none dark:text-black'
                                     {...register("email", { required: true })}
                                 />
                                 {errors.email?.type === "required" && <p className='text-red-700'>Please enter your email</p>}
@@ -80,7 +84,7 @@ function Contact() {
                                 <br />
                                 <textarea
                                     placeholder='Enter message'
-                                    className='dark:text-black border px-52  py-5 pl-2 rounded-lg '
+                                    className='dark:text-black border  px-20 md:py-10 md:p-2 md:w-[30rem] mr-0  py-5 pl-2 rounded-lg '
                                     {...register("textarea", { required: true })}
                                 ></textarea>
                                 {errors.textarea?.type === "required" && <p className='text-red-700'>Please enter your message</p>}

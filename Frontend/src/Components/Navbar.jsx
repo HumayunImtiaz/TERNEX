@@ -82,7 +82,7 @@ import About from './About';
        )
         return (
         <>
-            <div className={`max-w-screen-xl container   mx-auto md:px-20  dark:bg-slate-900 dark:text-white fixed top-0  left-0 right-0   z-50 ${
+            <div className={`max-w-screen-xl container md:max-w-screen-2xl  mx-auto md:px-20  dark:bg-slate-900 dark:text-white fixed top-0  left-0 right-0   z-50 ${
                 sticky
                 ? "sticky-navbar shadow-md bg-base-300 dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out":""
                 }`}>

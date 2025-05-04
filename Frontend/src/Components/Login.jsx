@@ -16,7 +16,7 @@ function Login() {
       
   
   axios.post("http://localhost:4001/user/login",userInfo).then((res)=>{
-    console.log("jbskdlskd" ,res.data)
+    console.log(res.data)
     if(res.data){
       toast.success('Successfully Login!');
       document.getElementById("my_modal_3").close();     

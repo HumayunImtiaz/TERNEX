@@ -74,7 +74,7 @@ function Freebook() {
      
   return (
     <>
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 mt-10 ">
+    <div className="max-w-screen-2xl container mx-auto md:px-28 md:w-[100%] px-4 mt-10 md:mt-32">
         <div className='flex-col text-center '> 
         <h1 className='font-semibold md:text-4xl text-3xl pb-2'>Videos Editing Packages</h1>
         <p className='md:text-lg text-sm mt-3 '>Video Editing specializes in creating high-quality videos and thumbnails optimized for social media. Our services include seamless cuts, smooth transitions, 

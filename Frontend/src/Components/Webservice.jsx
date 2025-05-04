@@ -68,7 +68,7 @@ function Webservice() {
 
   return (
     <>
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 mt-10 ">
+    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 mt-10 md:mt-16">
         <div className='flex-col text-center '> 
         <h1 className='font-semibold text-4xl pb-2'>Web Solutions for Every Business</h1>
         <p className='text-lg mt-3'>

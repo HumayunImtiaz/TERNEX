@@ -26,12 +26,13 @@ function CounterProject() {
         </h1>
         <h2>Current Projects</h2>
         </div>
+        
 
         <div className="border-r-[0.5px] w-[25%]">
         <h1 className="font-bold md:text-4xl text-2xl
          text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-50% via-primary via-50% to-green-600">
          {counteron &&   <CountUp start={0} end={73} duration={7} /> }
-        <sup className=" text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">+</sup>
+         <sup className=" text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">+</sup>
         </h1>
         <h2>Projects Completed</h2>
         </div>

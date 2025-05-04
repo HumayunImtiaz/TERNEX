@@ -24,16 +24,14 @@ function Course() {
     getBook();
   },[]);
     // const paidData=list.filter((data)=>data.catagory==="Paid")
-
     var settings = {
       dots: true,
-      infinite: false,
+      infinite: true, // ✅ keep only this one
       speed: 1000,
       slidesToShow: 3,
       slidesToScroll: 3,
       initialSlide: 0,
       autoPlay: true,
-      infinite: true,
       responsive: [
         {
           breakpoint: 1024,
@@ -64,6 +62,7 @@ function Course() {
         }
       ]
     };
+    
 
    
   return (

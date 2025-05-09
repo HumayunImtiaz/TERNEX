@@ -55,15 +55,15 @@ import About from './About';
         const navlist=(
         <>
             <li className='hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600 hover:rounded-md'>
-                <a href='/'>Home</a>
+                <a href='/'>HOME</a>
                 </li>
 
                 <li className='hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600 hover:rounded-md'>
-                <a  href='/course'>Premium </a>
+                <a  href='/course'>PREMIUM </a>
                 </li>
 
                 <div className="relative group">
-                    <a className="hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600  px-4 py-2 block hover:rounded-md">Portfolio</a>
+                    <a className="hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600  px-4 py-2 block hover:rounded-md">PORFOLIO</a>
                     <ul className="absolute  mt-0 w-40 bg-white text-gray-900 shadow-md rounded-lg hidden group-hover:block md:dark:bg-gray-800 dark:text-white">
                         <li className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-black md:dark:text-white "><a href="/sample">Videos Work</a></li>
                         <li className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-black md:dark:text-white"><a href="/design">Web Work</a></li>
@@ -72,11 +72,11 @@ import About from './About';
                     </div>
 
                 <li className='hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600 hover:rounded-md'>
-                <a href='/about'>About</a>
+                <a href='/about'>ABOUT</a>
                 
                 </li>
                 <li className='hover:bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600 hover:rounded-md'>
-                <a href='/contact'>Contact</a>
+                <a href='/contact'>CONTACT</a>
             </li>
         </>
        )
